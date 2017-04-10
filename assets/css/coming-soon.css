@@ -529,3 +529,17 @@ form h2 {
   color: #fff;
   margin-bottom: 2em;
 }
+
+/* line 156, ../sass/coming-soon.scss */
+.map iframe {
+  width: 100%;
+  display: block;
+  pointer-events: none;
+  position: relative;
+  /* IE needs a position other than static */
+}
+
+/* line 162, ../sass/coming-soon.scss */
+.map iframe.clicked {
+  pointer-events: auto;
+}
