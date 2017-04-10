@@ -152,3 +152,13 @@ h2 {
 //   min-height: 10px;
 // }
 }
+
+.map iframe{
+  width: 100%;
+  display: block;
+  pointer-events: none;
+  position: relative; /* IE needs a position other than static */
+}
+.map iframe.clicked{
+  pointer-events: auto;
+}
