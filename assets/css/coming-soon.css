@@ -1,0 +1,524 @@
+/* validation Colors */
+/* line 2, ../sass/partials/global/_extendables.scss */
+.clearfix:before, .clearfix:after {
+  display: table;
+  content: "";
+}
+/* line 7, ../sass/partials/global/_extendables.scss */
+.clearfix:after {
+  clear: both;
+}
+
+/* line 1, ../sass/partials/styleguide/type/_base-type.scss */
+html {
+  font: normal 100%/1.65 serif;
+  -webkit-text-size-adjust: 100%;
+  /* Prevent font scaling in landscape while allowing user zoom */
+}
+
+/* line 6, ../sass/partials/styleguide/type/_base-type.scss */
+body {
+  color: #3d3d3d;
+}
+
+/* line 10, ../sass/partials/styleguide/type/_base-type.scss */
+p {
+  margin: auto auto 1.5em;
+}
+/* line 14, ../sass/partials/styleguide/type/_base-type.scss */
+p + p {
+  margin-top: -0.5em;
+}
+
+/* line 1, ../sass/partials/styleguide/type/_headings.scss */
+h1 {
+  font-size: 2em;
+}
+
+/* line 2, ../sass/partials/styleguide/type/_headings.scss */
+h2 {
+  font-size: 1.8em;
+}
+
+/* line 3, ../sass/partials/styleguide/type/_headings.scss */
+h3 {
+  font-size: 1.4em;
+}
+
+/* line 4, ../sass/partials/styleguide/type/_headings.scss */
+h4 {
+  font-size: 1.3em;
+}
+
+/* line 5, ../sass/partials/styleguide/type/_headings.scss */
+h5 {
+  font-size: 1.2em;
+}
+
+/* line 6, ../sass/partials/styleguide/type/_headings.scss */
+h6 {
+  font-size: 1em;
+}
+
+@media (min-width: 0) and (max-width: 37.5em) {
+  /* line 9, ../sass/partials/styleguide/type/_headings.scss */
+  h1 {
+    font-size: 1.7em;
+  }
+
+  /* line 10, ../sass/partials/styleguide/type/_headings.scss */
+  h2 {
+    font-size: 1.4em;
+  }
+
+  /* line 11, ../sass/partials/styleguide/type/_headings.scss */
+  h3 {
+    font-size: 1.3em;
+  }
+
+  /* line 12, ../sass/partials/styleguide/type/_headings.scss */
+  h4 {
+    font-size: 1.3em;
+  }
+
+  /* line 13, ../sass/partials/styleguide/type/_headings.scss */
+  h5 {
+    font-size: 1.2em;
+  }
+
+  /* line 14, ../sass/partials/styleguide/type/_headings.scss */
+  h6 {
+    font-size: 1em;
+  }
+}
+/* line 17, ../sass/partials/styleguide/type/_headings.scss */
+h1, h2, h3, h4, h5, h6 {
+  margin: 16px 0;
+  line-height: 1.3;
+  color: #0f7abd;
+  font-family: sans-serif;
+}
+
+/* line 1, ../sass/partials/styleguide/type/_links.scss */
+a {
+  color: #0f7abd;
+}
+/* line 3, ../sass/partials/styleguide/type/_links.scss */
+a:hover {
+  color: #1398ec;
+}
+/* line 6, ../sass/partials/styleguide/type/_links.scss */
+a:visited {
+  color: #0b5b8e;
+}
+
+/* line 12, ../sass/partials/styleguide/type/_links.scss */
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+  text-decoration: none;
+}
+
+/* line 18, ../sass/partials/styleguide/type/_links.scss */
+div.btn {
+  display: inline-block;
+}
+/* line 20, ../sass/partials/styleguide/type/_links.scss */
+div.btn a {
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  background-color: #0f7abd;
+  border: 1px solid #0d6ba5;
+  border-radius: 2px;
+  color: white;
+  cursor: pointer;
+  padding: .5em 1.25em;
+  font-size: 95%;
+  font-family: sans-serif;
+  -webkit-transition: all linear 0.2s;
+  transition: all linear 0.2s;
+}
+/* line 56, ../sass/partials/global/_mixins.scss */
+div.btn a:hover {
+  background-color: #0e74b4;
+}
+/* line 27, ../sass/partials/styleguide/type/_links.scss */
+div.btn a:hover {
+  margin-top: -0.15em;
+  margin: -0.15em 0 0.15em;
+}
+
+/* line 1, ../sass/partials/styleguide/media/_images.scss */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* line 1, ../sass/partials/styleguide/media/_videos.scss */
+.videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  /* 16:9 */
+  padding-top: 25px;
+  height: 0;
+}
+
+/* line 7, ../sass/partials/styleguide/media/_videos.scss */
+.videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 1, ../sass/partials/styleguide/forms/_textarea.scss */
+textarea {
+  width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: .5em;
+  font-size: 100%;
+  border: 1px solid #D3D3D3;
+  border-radius: 3px;
+  font-family: serif;
+}
+/* line 9, ../sass/partials/styleguide/forms/_textarea.scss */
+textarea:active, textarea:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  outline: none;
+}
+
+/* line 1, ../sass/partials/styleguide/forms/_buttons.scss */
+input[type="submit"] {
+  background-color: #999999;
+  border: 1px solid #6286bd;
+  border-radius: 3px;
+  color: white;
+  cursor: pointer;
+  padding: .5em 1.25em;
+  font-size: 100%;
+  font-family: sans-serif;
+  display: inline-block;
+  -webkit-box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2), inset 0px 2px 0px 0px white;
+          box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2), inset 0px 2px 0px 0px white;
+  border-radius: 3px;
+  padding: 10px 25px;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+  font-size: .8em;
+  color: #373737;
+  cursor: pointer;
+}
+/* line 56, ../sass/partials/global/_mixins.scss */
+input[type="submit"]:hover {
+  background-color: #949494;
+}
+
+/* line 2, ../sass/partials/styleguide/forms/_label.scss */
+form label {
+  font-weight: normal;
+  font-size: 110%;
+  padding-bottom: .5em;
+  display: inline-block;
+  min-width: 55px;
+}
+/* line 10, ../sass/partials/styleguide/forms/_label.scss */
+form .description {
+  font-size: 85%;
+  margin: 1em 0;
+}
+
+/* line 1, ../sass/partials/styleguide/forms/_fieldsets.scss */
+fieldset {
+  border-radius: 3px;
+  padding: 1em 1.5em;
+}
+/* line 5, ../sass/partials/styleguide/forms/_fieldsets.scss */
+fieldset .fieldset-legend a {
+  text-decoration: none;
+}
+
+/* line 1, ../sass/partials/styleguide/misc/_table.scss */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* line 5, ../sass/partials/styleguide/misc/_table.scss */
+table tr {
+  padding: 0;
+}
+/* line 7, ../sass/partials/styleguide/misc/_table.scss */
+table tr.odd {
+  background-color: #f7f7f7;
+  border-bottom: 0;
+}
+/* line 11, ../sass/partials/styleguide/misc/_table.scss */
+table tr.even {
+  background-color: white;
+  border-bottom: 0;
+}
+/* line 16, ../sass/partials/styleguide/misc/_table.scss */
+table td {
+  padding: 0.5em 2em;
+  margin: 0;
+}
+
+/* line 24, ../sass/partials/styleguide/misc/_table.scss */
+table.sticky-enabled thead th, table.sticky-header thead th {
+  border-bottom: 3px solid #0f7abd;
+  padding: 1em 0 1em 2em;
+}
+
+/* line 1, ../sass/partials/styleguide/misc/_pager.scss */
+ul.pager {
+  margin: 1em 0 0;
+  padding: 1em 0 0;
+  border-top: 1px solid #d68603;
+}
+/* line 5, ../sass/partials/styleguide/misc/_pager.scss */
+ul.pager li {
+  display: inline-block;
+  list-style: none;
+  padding-right: .5em;
+  color: #0f7abd;
+}
+/* line 10, ../sass/partials/styleguide/misc/_pager.scss */
+ul.pager li a:visited {
+  color: #0f7abd;
+}
+
+/* line 8, ../sass/coming-soon.scss */
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 100%;
+}
+/* line 11, ../sass/coming-soon.scss */
+html body {
+  margin: 0;
+  height: 100%;
+  overflow-x: hidden;
+  font-family: 'roboto', sans-serif;
+}
+
+/* line 19, ../sass/coming-soon.scss */
+input[type="text"], input[type="email"], input[type="name"], input[type="password"], input[type="file"], textarea {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: .5em 1em;
+  font-size: 100%;
+  font-family: 'roboto', sans-serif;
+  border-radius: 3px;
+  padding: 0 .5em 1em;
+  margin-bottom: 4em;
+}
+/* line 27, ../sass/coming-soon.scss */
+input[type="text"]:active, input[type="text"]:focus, input[type="email"]:active, input[type="email"]:focus, input[type="name"]:active, input[type="name"]:focus, input[type="password"]:active, input[type="password"]:focus, input[type="file"]:active, input[type="file"]:focus, textarea:active, textarea:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  outline: none;
+}
+
+/* line 32, ../sass/coming-soon.scss */
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+/* line 34, ../sass/coming-soon.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "eurostile-extended", sans-serif;
+}
+
+/* line 38, ../sass/coming-soon.scss */
+header {
+  padding: 10em 1em;
+  text-align: center;
+  background: url("../images/header.jpg") no-repeat center center;
+  background-size: cover;
+}
+/* line 46, ../sass/coming-soon.scss */
+header * {
+  color: #fff;
+}
+
+/* line 50, ../sass/coming-soon.scss */
+section {
+  position: relative;
+}
+/* line 13, ../../../../../.rvm/gems/ruby-2.1.1/gems/toolkit-2.3.0/stylesheets/toolkit/_clearfix.scss */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* line 56, ../sass/coming-soon.scss */
+.about-us .col-one {
+  padding: 1em;
+}
+@media (min-width: 50em) {
+  /* line 56, ../sass/coming-soon.scss */
+  .about-us .col-one {
+    padding: 3em 2.5em;
+  }
+}
+/* line 92, ../../../../../.rvm/gems/ruby-2.1.1/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+.no-mq .about-us .col-one {
+  padding: 3em 2.5em;
+}
+@media (min-width: 62.5em) {
+  /* line 56, ../sass/coming-soon.scss */
+  .about-us .col-one {
+    padding: 4em 5em;
+  }
+}
+/* line 92, ../../../../../.rvm/gems/ruby-2.1.1/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+.no-mq .about-us .col-one {
+  padding: 4em 5em;
+}
+@media (min-width: 75em) {
+  /* line 56, ../sass/coming-soon.scss */
+  .about-us .col-one {
+    padding: 4em 7em;
+  }
+}
+/* line 92, ../../../../../.rvm/gems/ruby-2.1.1/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+.no-mq .about-us .col-one {
+  padding: 4em 7em;
+}
+/* line 68, ../sass/coming-soon.scss */
+.about-us .col-two {
+  height: 300px;
+  width: 100%;
+  right: 0;
+  background: url("../images/about.jpg") no-repeat center center;
+  background-size: cover;
+}
+@media (min-width: 50em) {
+  /* line 68, ../sass/coming-soon.scss */
+  .about-us .col-two {
+    position: absolute;
+    height: 100%;
+    width: 50%;
+  }
+}
+/* line 92, ../../../../../.rvm/gems/ruby-2.1.1/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+.no-mq .about-us .col-two {
+  position: absolute;
+  height: 100%;
+  width: 50%;
+}
+
+@media (min-width: 50em) {
+  /* line 85, ../sass/coming-soon.scss */
+  .col-one {
+    width: 50%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 0;
+    clear: none;
+  }
+}
+/* line 92, ../../../../../.rvm/gems/ruby-2.1.1/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+.no-mq .col-one {
+  width: 50%;
+  float: left;
+  margin-right: -100%;
+  margin-left: 0;
+  clear: none;
+}
+
+@media (min-width: 50em) {
+  /* line 90, ../sass/coming-soon.scss */
+  .col-two {
+    width: 50%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none;
+  }
+}
+/* line 92, ../../../../../.rvm/gems/ruby-2.1.1/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+.no-mq .col-two {
+  width: 50%;
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  clear: none;
+}
+
+/* line 95, ../sass/coming-soon.scss */
+.contact {
+  background: #C52026;
+  line-height: 0;
+}
+/* line 98, ../sass/coming-soon.scss */
+.contact .col-two {
+  padding: 1em;
+}
+@media (min-width: 50em) {
+  /* line 98, ../sass/coming-soon.scss */
+  .contact .col-two {
+    padding: 4em 7em;
+  }
+}
+/* line 92, ../../../../../.rvm/gems/ruby-2.1.1/gems/breakpoint-2.5.0/stylesheets/_breakpoint.scss */
+.no-mq .contact .col-two {
+  padding: 4em 7em;
+}
+
+/* line 105, ../sass/coming-soon.scss */
+form {
+  max-width: 800px;
+  padding: 6em 1em 4em;
+  margin: 0 auto;
+}
+/* line 109, ../sass/coming-soon.scss */
+form input[type="text"], form input[type="email"], form input[type="name"], form input[type="password"], form input[type="file"], form textarea {
+  display: block;
+  width: 100%;
+  background: none;
+  border: 0;
+  border-bottom: 2px solid #fff;
+  color: #fff;
+  border-radius: 0;
+  padding: 0 .5em 1em;
+  margin-bottom: 4em;
+}
+/* line 120, ../sass/coming-soon.scss */
+form ::-webkit-input-placeholder {
+  /* WebKit, Blink, Edge */
+  color: #fff;
+}
+/* line 123, ../sass/coming-soon.scss */
+form :-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: #fff;
+  opacity: 1;
+}
+/* line 127, ../sass/coming-soon.scss */
+form ::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #fff;
+  opacity: 1;
+}
+/* line 131, ../sass/coming-soon.scss */
+form :-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #fff;
+}
+/* line 134, ../sass/coming-soon.scss */
+form input[type="submit"] {
+  background: #1398ec;
+  color: #fff;
+  font-size: 100%;
+  font-family: 'roboto', sans-serif;
+}
+/* line 141, ../sass/coming-soon.scss */
+form h2 {
+  color: #fff;
+  margin-bottom: 2em;
+}
