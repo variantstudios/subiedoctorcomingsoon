@@ -217,6 +217,7 @@ input[type="submit"]:hover {
 
 /* line 2, ../sass/partials/styleguide/forms/_label.scss */
 form label {
+  color: #d0d0d0;
   font-weight: normal;
   font-size: 110%;
   padding-bottom: .5em;
