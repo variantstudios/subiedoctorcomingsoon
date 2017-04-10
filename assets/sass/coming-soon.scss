@@ -38,7 +38,7 @@ h1, h2, h3, h4, h5, h6 {
 header {
   padding: 10em 1em;
   text-align: center;
-  background: url("../images/header.jpg") no-repeat center center ; 
+  background: url("../images/header.jpg") no-repeat center center ;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -69,12 +69,12 @@ section {
       height: 300px;
       width: 100%;
       right: 0;
-      background: url("../images/about.jpg") no-repeat center center ; 
+      background: url("../images/about.jpg") no-repeat center center ;
       -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;
       background-size: cover;
-      
+
       @include breakpoint($bp-medium, $no-query: ".no-mq") {
         position: absolute;
         height: 100%;
@@ -114,7 +114,7 @@ form {
     border-bottom: 2px solid #fff;
     color: #fff;
     border-radius: 0;
-    padding: 0 .5em 1em;
+    padding: 1em .5em 1em .5em;
     margin-bottom: 4em;
   }
   ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
