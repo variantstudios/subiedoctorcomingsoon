@@ -17,6 +17,6 @@ cloudinaryurl: ""
 typekit: ""
 
 # Google Analytics - What site isn't using it?!
-google_analytics_tracking_id: ""
+google_analytics_tracking_id: "UA-97408360-1"
 
 exclude: ["vendor","node_modules","package.json","Gemfile","gulpfile.js","*.scss"]
